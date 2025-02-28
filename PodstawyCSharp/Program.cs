@@ -10,6 +10,14 @@ namespace PodstawyCSharp
     {
         static void Main(string[] args)
         {
+            int a;
+           Console.WriteLine("Podaj liczbę");
+            a = Convert.ToInt32(Console.ReadLine());
+            if (a % 2 ==0)
+                Console.WriteLine("Liczba {0} jest parzysta", a);
+            else
+                Console.WriteLine("Liczba {0} jest nie parzysta", a);
+            Console.ReadKey(true);
         }
     }
 }
