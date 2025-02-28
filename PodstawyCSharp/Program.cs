@@ -10,6 +10,7 @@ namespace PodstawyCSharp
     {
         static void Main(string[] args)
         {
+            s
         }
     }
 }
