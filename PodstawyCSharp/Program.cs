@@ -10,7 +10,8 @@ namespace PodstawyCSharp
     {
         static void Main(string[] args)
         {
-            ss
+            Console.WriteLine("Witaj świecie");
+            Console.ReadKey(true);
         }
     }
 }
